@@ -1,0 +1,955 @@
+2019-08-30 19:29:10 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fb658a3c3e0; archive(resolved)='<IDEArchive: 0x7fb655e7eb40>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7fb66693dbe0>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb67126c2e0; teamID='8BNMDAR7PL', teamName='.decimal, LLC', teamType='Company', username='jselikoff@dotdecimal.com', isFreeProvisioningTeam='0'>'>
+	Chain (12, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fb658a3c3e0; archive = '<IDEArchive: 0x7fb655e7eb40>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb66693dbe0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb67126c2e0; teamID='8BNMDAR7PL', teamName='.decimal, LLC', teamType='Company', username='jselikoff@dotdecimal.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fb655ba47c0; archive = '<IDEArchive: 0x7fb655e7eb40>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb66693dbe0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb67126c2e0; teamID='8BNMDAR7PL', teamName='.decimal, LLC', teamType='Company', username='jselikoff@dotdecimal.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fb657133fb0; archive = '<IDEArchive: 0x7fb655e7eb40>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb66693dbe0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb67126c2e0; teamID='8BNMDAR7PL', teamName='.decimal, LLC', teamType='Company', username='jselikoff@dotdecimal.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fb657147b10; archive = '<IDEArchive: 0x7fb655e7eb40>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb66693dbe0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb67126c2e0; teamID='8BNMDAR7PL', teamName='.decimal, LLC', teamType='Company', username='jselikoff@dotdecimal.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fb65733d390; archive = '<IDEArchive: 0x7fb655e7eb40>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb66693dbe0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb67126c2e0; teamID='8BNMDAR7PL', teamName='.decimal, LLC', teamType='Company', username='jselikoff@dotdecimal.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fb658d1f030; archive = '<IDEArchive: 0x7fb655e7eb40>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb66693dbe0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb67126c2e0; teamID='8BNMDAR7PL', teamName='.decimal, LLC', teamType='Company', username='jselikoff@dotdecimal.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fb671cdf980; archive = '<IDEArchive: 0x7fb655e7eb40>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb66693dbe0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb67126c2e0; teamID='8BNMDAR7PL', teamName='.decimal, LLC', teamType='Company', username='jselikoff@dotdecimal.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fb655d46680; archive = '<IDEArchive: 0x7fb655e7eb40>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb66693dbe0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb67126c2e0; teamID='8BNMDAR7PL', teamName='.decimal, LLC', teamType='Company', username='jselikoff@dotdecimal.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fb658f71bb0; archive = '<IDEArchive: 0x7fb655e7eb40>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb66693dbe0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb67126c2e0; teamID='8BNMDAR7PL', teamName='.decimal, LLC', teamType='Company', username='jselikoff@dotdecimal.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fb67197ef30; archive = '<IDEArchive: 0x7fb655e7eb40>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb66693dbe0>', team='(null)'>
+	<IDEDistributionContext: 0x7fb657661b60; archive = '<IDEArchive: 0x7fb655e7eb40>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fb66693dbe0>', team='(null)'>
+	<IDEDistributionContext: 0x7fb6545df350; archive = '<IDEArchive: 0x7fb655e7eb40>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fb658a3c3e0>
+2019-08-30 19:29:10 +0000  Processing step: IDEDistributionCreateDestRootStep
+2019-08-30 19:29:10 +0000  Processing step: IDEDistributionCopyItemStep
+2019-08-30 19:29:10 +0000  Running /usr/bin/ditto '-V' '/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app'
+2019-08-30 19:29:10 +0000  >>> Copying /Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app 
+2019-08-30 19:29:10 +0000  copying file ./_CodeSignature/CodeResources ... 
+2019-08-30 19:29:10 +0000  37161 bytes for ./_CodeSignature/CodeResources
+2019-08-30 19:29:10 +0000  copying file ./3DLogoSquare.obj ... 
+2019-08-30 19:29:10 +0000  1182 bytes for ./3DLogoSquare.obj
+2019-08-30 19:29:10 +0000  copying file ./WorkSans-Regular.ttf ... 
+2019-08-30 19:29:10 +0000  188584 bytes for ./WorkSans-Regular.ttf
+2019-08-30 19:29:10 +0000  copying file ./Split.storyboardc/d0r-lA-dbh-view-uRe-Tf-Jxe.nib ... 
+2019-08-30 19:29:10 +0000  8249 bytes for ./Split.storyboardc/d0r-lA-dbh-view-uRe-Tf-Jxe.nib
+2019-08-30 19:29:10 +0000  copying file ./Split.storyboardc/SideMenuViewController.nib ... 
+2019-08-30 19:29:10 +0000  1123 bytes for ./Split.storyboardc/SideMenuViewController.nib
+2019-08-30 19:29:10 +0000  copying file ./Split.storyboardc/SplitViewController.nib ... 
+2019-08-30 19:29:10 +0000  3286 bytes for ./Split.storyboardc/SplitViewController.nib
+2019-08-30 19:29:10 +0000  copying file ./Split.storyboardc/Info.plist ... 
+2019-08-30 19:29:10 +0000  426 bytes for ./Split.storyboardc/Info.plist
+2019-08-30 19:29:10 +0000  copying file ./Advance.storyboardc/AdvanceViewController.nib ... 
+2019-08-30 19:29:10 +0000  1022 bytes for ./Advance.storyboardc/AdvanceViewController.nib
+2019-08-30 19:29:10 +0000  copying file ./Advance.storyboardc/Info.plist ... 
+2019-08-30 19:29:10 +0000  215 bytes for ./Advance.storyboardc/Info.plist
+2019-08-30 19:29:10 +0000  copying file ./Advance.storyboardc/Knp-Qd-B48-view-bW8-yr-WoA.nib ... 
+2019-08-30 19:29:10 +0000  2980 bytes for ./Advance.storyboardc/Knp-Qd-B48-view-bW8-yr-WoA.nib
+2019-08-30 19:29:10 +0000  copying file ./NewScan.storyboardc/dqv-fU-jls-view-YYe-N7-VzY.nib ... 
+2019-08-30 19:29:10 +0000  8346 bytes for ./NewScan.storyboardc/dqv-fU-jls-view-YYe-N7-VzY.nib
+2019-08-30 19:29:10 +0000  copying file ./NewScan.storyboardc/Info.plist ... 
+2019-08-30 19:29:10 +0000  215 bytes for ./NewScan.storyboardc/Info.plist
+2019-08-30 19:29:10 +0000  copying file ./NewScan.storyboardc/NewScanViewController.nib ... 
+2019-08-30 19:29:10 +0000  1071 bytes for ./NewScan.storyboardc/NewScanViewController.nib
+2019-08-30 19:29:10 +0000  copying file ./WorkSans-Light.ttf ... 
+2019-08-30 19:29:10 +0000  190308 bytes for ./WorkSans-Light.ttf
+2019-08-30 19:29:10 +0000  copying file ./PatientDetail.storyboardc/RhB-Ix-usC-view-ej6-ff-ySE.nib ... 
+2019-08-30 19:29:10 +0000  20735 bytes for ./PatientDetail.storyboardc/RhB-Ix-usC-view-ej6-ff-ySE.nib
+2019-08-30 19:29:10 +0000  copying file ./PatientDetail.storyboardc/PatientDetailViewController.nib ... 
+2019-08-30 19:29:10 +0000  3128 bytes for ./PatientDetail.storyboardc/PatientDetailViewController.nib
+2019-08-30 19:29:10 +0000  copying file ./PatientDetail.storyboardc/Info.plist ... 
+2019-08-30 19:29:10 +0000  227 bytes for ./PatientDetail.storyboardc/Info.plist
+2019-08-30 19:29:10 +0000  copying file ./WorkSans-ExtraBold.ttf ... 
+2019-08-30 19:29:10 +0000  205644 bytes for ./WorkSans-ExtraBold.ttf
+2019-08-30 19:29:10 +0000  copying file ./NewBeam.storyboardc/D1a-oz-Xyj-view-zBG-1S-LlW.nib ... 
+2019-08-30 19:29:10 +0000  5388 bytes for ./NewBeam.storyboardc/D1a-oz-Xyj-view-zBG-1S-LlW.nib
+2019-08-30 19:29:10 +0000  copying file ./NewBeam.storyboardc/NewBeamViewController.nib ... 
+2019-08-30 19:29:10 +0000  1071 bytes for ./NewBeam.storyboardc/NewBeamViewController.nib
+copying file ./NewBeam.storyboardc/Info.plist ... 
+2019-08-30 19:29:10 +0000  215 bytes for ./NewBeam.storyboardc/Info.plist
+2019-08-30 19:29:10 +0000  copying file ./UpdateBeam.storyboardc/esr-uS-ztD-view-GEB-Vy-DGZ.nib ... 
+2019-08-30 19:29:10 +0000  4834 bytes for ./UpdateBeam.storyboardc/esr-uS-ztD-view-GEB-Vy-DGZ.nib
+2019-08-30 19:29:10 +0000  copying file ./UpdateBeam.storyboardc/UpdateBeamViewController.nib ... 
+2019-08-30 19:29:10 +0000  1077 bytes for ./UpdateBeam.storyboardc/UpdateBeamViewController.nib
+2019-08-30 19:29:10 +0000  copying file ./UpdateBeam.storyboardc/Info.plist ... 
+2019-08-30 19:29:10 +0000  221 bytes for ./UpdateBeam.storyboardc/Info.plist
+2019-08-30 19:29:10 +0000  copying file ./WorkSans-SemiBoldItalic.ttf ... 
+2019-08-30 19:29:10 +0000  190000 bytes for ./WorkSans-SemiBoldItalic.ttf
+2019-08-30 19:29:10 +0000  copying file ./WorkSans-MediumItalic.ttf ... 
+2019-08-30 19:29:10 +0000  190524 bytes for ./WorkSans-MediumItalic.ttf
+2019-08-30 19:29:10 +0000  copying file ./WorkSans-BoldItalic.ttf ... 
+2019-08-30 19:29:10 +0000  189236 bytes for ./WorkSans-BoldItalic.ttf
+2019-08-30 19:29:10 +0000  copying file ./decimal3D ... 
+2019-08-30 19:29:10 +0000  5115504 bytes for ./decimal3D
+2019-08-30 19:29:10 +0000  copying file ./IQKeyboardManager.bundle/IQButtonBarArrowRight@2x.png ... 
+1786 bytes for ./IQKeyboardManager.bundle/IQButtonBarArrowRight@2x.png
+copying file ./IQKeyboardManager.bundle/IQButtonBarArrowUp@3x.png ... 
+2164 bytes for ./IQKeyboardManager.bundle/IQButtonBarArrowUp@3x.png
+copying file ./IQKeyboardManager.bundle/IQButtonBarArrowUp@2x.png ... 
+1769 bytes for ./IQKeyboardManager.bundle/IQButtonBarArrowUp@2x.png
+copying file ./IQKeyboardManager.bundle/IQButtonBarArrowRight@3x.png ... 
+1844 bytes for ./IQKeyboardManager.bundle/IQButtonBarArrowRight@3x.png
+copying file ./IQKeyboardManager.bundle/IQButtonBarArrowLeft@3x.png ... 
+2019-08-30 19:29:10 +0000  1815 bytes for ./IQKeyboardManager.bundle/IQButtonBarArrowLeft@3x.png
+2019-08-30 19:29:10 +0000  copying file ./IQKeyboardManager.bundle/IQButtonBarArrowDown@3x.png ... 
+2019-08-30 19:29:10 +0000  2177 bytes for ./IQKeyboardManager.bundle/IQButtonBarArrowDown@3x.png
+copying file ./IQKeyboardManager.bundle/IQButtonBarArrowDown@2x.png ... 
+2019-08-30 19:29:10 +0000  1764 bytes for ./IQKeyboardManager.bundle/IQButtonBarArrowDown@2x.png
+2019-08-30 19:29:10 +0000  copying file ./IQKeyboardManager.bundle/IQButtonBarArrowLeft@2x.png ... 
+2019-08-30 19:29:10 +0000  1793 bytes for ./IQKeyboardManager.bundle/IQButtonBarArrowLeft@2x.png
+2019-08-30 19:29:10 +0000  copying file ./WorkSans-ExtraLight.ttf ... 
+2019-08-30 19:29:10 +0000  192808 bytes for ./WorkSans-ExtraLight.ttf
+2019-08-30 19:29:10 +0000  copying file ./CreateBeam.storyboardc/CreateBeamViewController.nib ... 
+2019-08-30 19:29:10 +0000  1049 bytes for ./CreateBeam.storyboardc/CreateBeamViewController.nib
+2019-08-30 19:29:10 +0000  copying file ./CreateBeam.storyboardc/ZBE-Tf-veZ-view-d18-s6-0O7.nib ... 
+2019-08-30 19:29:10 +0000  22280 bytes for ./CreateBeam.storyboardc/ZBE-Tf-veZ-view-d18-s6-0O7.nib
+copying file ./CreateBeam.storyboardc/Info.plist ... 
+2019-08-30 19:29:10 +0000  221 bytes for ./CreateBeam.storyboardc/Info.plist
+2019-08-30 19:29:10 +0000  copying file ./ScanInfo.storyboardc/oTL-Ab-WfS-view-2Wo-ju-nwP.nib ... 
+2019-08-30 19:29:10 +0000  15532 bytes for ./ScanInfo.storyboardc/oTL-Ab-WfS-view-2Wo-ju-nwP.nib
+2019-08-30 19:29:10 +0000  copying file ./ScanInfo.storyboardc/ScanInfoViewController.nib ... 
+2019-08-30 19:29:10 +0000  1045 bytes for ./ScanInfo.storyboardc/ScanInfoViewController.nib
+copying file ./ScanInfo.storyboardc/Info.plist ... 
+2019-08-30 19:29:10 +0000  217 bytes for ./ScanInfo.storyboardc/Info.plist
+2019-08-30 19:29:10 +0000  copying file ./CourseManagement.storyboardc/CourseManagementViewController.nib ... 
+2019-08-30 19:29:10 +0000  2574 bytes for ./CourseManagement.storyboardc/CourseManagementViewController.nib
+2019-08-30 19:29:10 +0000  copying file ./CourseManagement.storyboardc/rGc-eK-7FJ-view-T0t-xK-MEI.nib ... 
+2019-08-30 19:29:10 +0000  8723 bytes for ./CourseManagement.storyboardc/rGc-eK-7FJ-view-T0t-xK-MEI.nib
+copying file ./CourseManagement.storyboardc/Info.plist ... 
+2019-08-30 19:29:10 +0000  233 bytes for ./CourseManagement.storyboardc/Info.plist
+2019-08-30 19:29:10 +0000  copying file ./WorkSans-ThinItalic.ttf ... 
+2019-08-30 19:29:10 +0000  178700 bytes for ./WorkSans-ThinItalic.ttf
+2019-08-30 19:29:10 +0000  copying file ./WorkSans-ExtraLightItalic.ttf ... 
+2019-08-30 19:29:10 +0000  181120 bytes for ./WorkSans-ExtraLightItalic.ttf
+2019-08-30 19:29:10 +0000  copying file ./startScanButton@2x.png ... 
+2019-08-30 19:29:10 +0000  5919 bytes for ./startScanButton@2x.png
+2019-08-30 19:29:10 +0000  copying file ./3DLogoSquare.jpg ... 
+2019-08-30 19:29:10 +0000  259735 bytes for ./3DLogoSquare.jpg
+2019-08-30 19:29:10 +0000  copying file ./WorkSans-Medium.ttf ... 
+2019-08-30 19:29:10 +0000  202660 bytes for ./WorkSans-Medium.ttf
+2019-08-30 19:29:10 +0000  copying file ./Base.lproj/PatientList.storyboardc/Sjv-vf-rj3-view-ija-Xc-qcD.nib ... 
+2019-08-30 19:29:10 +0000  15397 bytes for ./Base.lproj/PatientList.storyboardc/Sjv-vf-rj3-view-ija-Xc-qcD.nib
+2019-08-30 19:29:10 +0000  copying file ./Base.lproj/PatientList.storyboardc/PatientListViewController.nib ... 
+2019-08-30 19:29:10 +0000  2801 bytes for ./Base.lproj/PatientList.storyboardc/PatientListViewController.nib
+2019-08-30 19:29:10 +0000  copying file ./Base.lproj/PatientList.storyboardc/Info.plist ... 
+2019-08-30 19:29:10 +0000  223 bytes for ./Base.lproj/PatientList.storyboardc/Info.plist
+2019-08-30 19:29:10 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2019-08-30 19:29:10 +0000  2146 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2019-08-30 19:29:10 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2019-08-30 19:29:10 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2019-08-30 19:29:10 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2019-08-30 19:29:10 +0000  copying file ./ScanningViewController.storyboardc/rvd-AV-auu-view-4fL-JS-KMl.nib ... 
+2019-08-30 19:29:10 +0000  5818 bytes for ./ScanningViewController.storyboardc/rvd-AV-auu-view-4fL-JS-KMl.nib
+2019-08-30 19:29:10 +0000  copying file ./ScanningViewController.storyboardc/ScanningViewController.nib ... 
+2019-08-30 19:29:10 +0000  1288 bytes for ./ScanningViewController.storyboardc/ScanningViewController.nib
+copying file ./ScanningViewController.storyboardc/Info.plist ... 
+2019-08-30 19:29:10 +0000  217 bytes for ./ScanningViewController.storyboardc/Info.plist
+2019-08-30 19:29:10 +0000  copying file ./Order.storyboardc/OrderViewController.nib ... 
+2019-08-30 19:29:10 +0000  1142 bytes for ./Order.storyboardc/OrderViewController.nib
+2019-08-30 19:29:10 +0000  copying file ./Order.storyboardc/dcg-yi-Voo-view-7rP-gf-RjA.nib ... 
+2019-08-30 19:29:10 +0000  19564 bytes for ./Order.storyboardc/dcg-yi-Voo-view-7rP-gf-RjA.nib
+2019-08-30 19:29:10 +0000  copying file ./Order.storyboardc/Info.plist ... 
+2019-08-30 19:29:10 +0000  211 bytes for ./Order.storyboardc/Info.plist
+2019-08-30 19:29:10 +0000  copying file ./resetScanButton@2x.png ... 
+2019-08-30 19:29:10 +0000  2144 bytes for ./resetScanButton@2x.png
+2019-08-30 19:29:10 +0000  copying file ./WorkSans-SemiBold.ttf ... 
+2019-08-30 19:29:10 +0000  202952 bytes for ./WorkSans-SemiBold.ttf
+2019-08-30 19:29:10 +0000  copying file ./Assets.car ... 
+2019-08-30 19:29:10 +0000  5563080 bytes for ./Assets.car
+2019-08-30 19:29:10 +0000  copying file ./ScanDetail.storyboardc/ScanDetailViewController.nib ... 
+2559 bytes for ./ScanDetail.storyboardc/ScanDetailViewController.nib
+copying file ./ScanDetail.storyboardc/dHN-v8-E5g-view-IoL-Ly-wqa.nib ... 
+19746 bytes for ./ScanDetail.storyboardc/dHN-v8-E5g-view-IoL-Ly-wqa.nib
+copying file ./ScanDetail.storyboardc/Info.plist ... 
+173 bytes for ./ScanDetail.storyboardc/Info.plist
+copying file ./AppIcon76x76@2x~ipad.png ... 
+4889 bytes for ./AppIcon76x76@2x~ipad.png
+copying file ./WorkSans-Italic.ttf ... 
+2019-08-30 19:29:10 +0000  179968 bytes for ./WorkSans-Italic.ttf
+2019-08-30 19:29:10 +0000  copying file ./decimal3D.momd/decimal3D.mom ... 
+2019-08-30 19:29:10 +0000  11878 bytes for ./decimal3D.momd/decimal3D.mom
+2019-08-30 19:29:10 +0000  copying file ./decimal3D.momd/VersionInfo.plist ... 
+2019-08-30 19:29:10 +0000  640 bytes for ./decimal3D.momd/VersionInfo.plist
+copying file ./decimal3D.momd/decimal3D.omo ... 
+2019-08-30 19:29:10 +0000  27320 bytes for ./decimal3D.momd/decimal3D.omo
+2019-08-30 19:29:10 +0000  copying file ./doneButton@2x.png ... 
+2019-08-30 19:29:10 +0000  4887 bytes for ./doneButton@2x.png
+2019-08-30 19:29:10 +0000  copying file ./OFL.txt ... 
+2019-08-30 19:29:10 +0000  4396 bytes for ./OFL.txt
+2019-08-30 19:29:10 +0000  copying file ./Help.storyboardc/HelpViewController.nib ... 
+2019-08-30 19:29:10 +0000  1013 bytes for ./Help.storyboardc/HelpViewController.nib
+2019-08-30 19:29:10 +0000  copying file ./Help.storyboardc/Info.plist ... 
+2019-08-30 19:29:10 +0000  209 bytes for ./Help.storyboardc/Info.plist
+copying file ./Help.storyboardc/Knp-Qd-B48-view-bW8-yr-WoA.nib ... 
+2019-08-30 19:29:10 +0000  2967 bytes for ./Help.storyboardc/Knp-Qd-B48-view-bW8-yr-WoA.nib
+2019-08-30 19:29:10 +0000  copying file ./WorkSans-BlackItalic.ttf ... 
+2019-08-30 19:29:10 +0000  181660 bytes for ./WorkSans-BlackItalic.ttf
+2019-08-30 19:29:10 +0000  copying file ./WorkSans-Thin.ttf ... 
+2019-08-30 19:29:10 +0000  191056 bytes for ./WorkSans-Thin.ttf
+2019-08-30 19:29:10 +0000  copying file ./NewContour.storyboardc/NewContourViewController.nib ... 
+2019-08-30 19:29:10 +0000  1077 bytes for ./NewContour.storyboardc/NewContourViewController.nib
+2019-08-30 19:29:10 +0000  copying file ./NewContour.storyboardc/Info.plist ... 
+2019-08-30 19:29:10 +0000  221 bytes for ./NewContour.storyboardc/Info.plist
+copying file ./NewContour.storyboardc/5YP-OB-M3v-view-U3T-lN-6kw.nib ... 
+2019-08-30 19:29:10 +0000  5386 bytes for ./NewContour.storyboardc/5YP-OB-M3v-view-U3T-lN-6kw.nib
+2019-08-30 19:29:10 +0000  copying file ./DEC_APERTURE_TFD_Boost_6LAOLtScarBo_TRILOGY-33603.dec ... 
+2019-08-30 19:29:10 +0000  13517 bytes for ./DEC_APERTURE_TFD_Boost_6LAOLtScarBo_TRILOGY-33603.dec
+2019-08-30 19:29:10 +0000  copying file ./WorkSans-Black.ttf ... 
+2019-08-30 19:29:10 +0000  198712 bytes for ./WorkSans-Black.ttf
+2019-08-30 19:29:10 +0000  copying file ./BlockView.storyboardc/BlockViewViewController.nib ... 
+2019-08-30 19:29:10 +0000  1047 bytes for ./BlockView.storyboardc/BlockViewViewController.nib
+2019-08-30 19:29:10 +0000  copying file ./BlockView.storyboardc/Info.plist ... 
+2019-08-30 19:29:10 +0000  219 bytes for ./BlockView.storyboardc/Info.plist
+copying file ./BlockView.storyboardc/Gfq-Hb-JN6-view-Iax-g6-kNX.nib ... 
+2019-08-30 19:29:10 +0000  4005 bytes for ./BlockView.storyboardc/Gfq-Hb-JN6-view-Iax-g6-kNX.nib
+2019-08-30 19:29:10 +0000  copying file ./MeshView.storyboardc/Nfn-CR-j2z-view-MnE-A3-pHz.nib ... 
+2019-08-30 19:29:10 +0000  5231 bytes for ./MeshView.storyboardc/Nfn-CR-j2z-view-MnE-A3-pHz.nib
+2019-08-30 19:29:10 +0000  copying file ./MeshView.storyboardc/MeshViewViewController.nib ... 
+2019-08-30 19:29:10 +0000  1391 bytes for ./MeshView.storyboardc/MeshViewViewController.nib
+2019-08-30 19:29:10 +0000  copying file ./MeshView.storyboardc/UIViewController-ZtK-mI-bqg.nib ... 
+2019-08-30 19:29:10 +0000  761 bytes for ./MeshView.storyboardc/UIViewController-ZtK-mI-bqg.nib
+copying file ./MeshView.storyboardc/Info.plist ... 
+2019-08-30 19:29:10 +0000  455 bytes for ./MeshView.storyboardc/Info.plist
+2019-08-30 19:29:10 +0000  copying file ./3DLogoSquare.mtl ... 
+2019-08-30 19:29:10 +0000  266 bytes for ./3DLogoSquare.mtl
+2019-08-30 19:29:10 +0000  copying file ./Frameworks/libswiftSceneKit.dylib ... 
+2019-08-30 19:29:10 +0000  402032 bytes for ./Frameworks/libswiftSceneKit.dylib
+2019-08-30 19:29:10 +0000  copying file ./Frameworks/libswiftCoreImage.dylib ... 
+2019-08-30 19:29:10 +0000  335072 bytes for ./Frameworks/libswiftCoreImage.dylib
+2019-08-30 19:29:10 +0000  copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2019-08-30 19:29:10 +0000  400112 bytes for ./Frameworks/libswiftObjectiveC.dylib
+2019-08-30 19:29:10 +0000  copying file ./Frameworks/libswiftCore.dylib ... 
+2019-08-30 19:29:10 +0000  23297568 bytes for ./Frameworks/libswiftCore.dylib
+2019-08-30 19:29:10 +0000  copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+857648 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+copying file ./Frameworks/libswiftUIKit.dylib ... 
+2019-08-30 19:29:10 +0000  655616 bytes for ./Frameworks/libswiftUIKit.dylib
+copying file ./Frameworks/libswiftMetal.dylib ... 
+2019-08-30 19:29:10 +0000  395696 bytes for ./Frameworks/libswiftMetal.dylib
+copying file ./Frameworks/libswiftCoreData.dylib ... 
+2019-08-30 19:29:10 +0000  468944 bytes for ./Frameworks/libswiftCoreData.dylib
+2019-08-30 19:29:10 +0000  copying file ./Frameworks/libswiftDispatch.dylib ... 
+2019-08-30 19:29:10 +0000  1377360 bytes for ./Frameworks/libswiftDispatch.dylib
+2019-08-30 19:29:10 +0000  copying file ./Frameworks/libswiftos.dylib ... 
+2019-08-30 19:29:10 +0000  396976 bytes for ./Frameworks/libswiftos.dylib
+2019-08-30 19:29:10 +0000  copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+2019-08-30 19:29:10 +0000  335280 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+2019-08-30 19:29:10 +0000  copying file ./Frameworks/libswiftDarwin.dylib ... 
+2019-08-30 19:29:10 +0000  499744 bytes for ./Frameworks/libswiftDarwin.dylib
+2019-08-30 19:29:10 +0000  copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+2019-08-30 19:29:10 +0000  338256 bytes for ./Frameworks/libswiftQuartzCore.dylib
+2019-08-30 19:29:10 +0000  copying file ./Frameworks/libswiftCoreAudio.dylib ... 
+2019-08-30 19:29:10 +0000  408608 bytes for ./Frameworks/libswiftCoreAudio.dylib
+2019-08-30 19:29:10 +0000  copying file ./Frameworks/libswiftAVFoundation.dylib ... 
+2019-08-30 19:29:10 +0000  665936 bytes for ./Frameworks/libswiftAVFoundation.dylib
+2019-08-30 19:29:10 +0000  copying file ./Frameworks/libswiftModelIO.dylib ... 
+2019-08-30 19:29:10 +0000  400720 bytes for ./Frameworks/libswiftModelIO.dylib
+2019-08-30 19:29:10 +0000  copying file ./Frameworks/libswiftFoundation.dylib ... 
+2019-08-30 19:29:10 +0000  11552336 bytes for ./Frameworks/libswiftFoundation.dylib
+2019-08-30 19:29:10 +0000  copying file ./Frameworks/libswiftCoreMedia.dylib ... 
+2019-08-30 19:29:10 +0000  400112 bytes for ./Frameworks/libswiftCoreMedia.dylib
+copying file ./Frameworks/libswiftGLKit.dylib ... 
+2019-08-30 19:29:10 +0000  336320 bytes for ./Frameworks/libswiftGLKit.dylib
+2019-08-30 19:29:10 +0000  copying file ./Frameworks/libswiftsimd.dylib ... 
+2019-08-30 19:29:10 +0000  1323760 bytes for ./Frameworks/libswiftsimd.dylib
+2019-08-30 19:29:10 +0000  copying file ./embedded.mobileprovision ... 
+2019-08-30 19:29:10 +0000  13727 bytes for ./embedded.mobileprovision
+2019-08-30 19:29:10 +0000  copying file ./WorkSans-LightItalic.ttf ... 
+2019-08-30 19:29:10 +0000  181916 bytes for ./WorkSans-LightItalic.ttf
+2019-08-30 19:29:10 +0000  copying file ./NewCourse.storyboardc/cfc-OE-Ucu-view-Q42-ot-1BP.nib ... 
+2019-08-30 19:29:10 +0000  5402 bytes for ./NewCourse.storyboardc/cfc-OE-Ucu-view-Q42-ot-1BP.nib
+2019-08-30 19:29:10 +0000  copying file ./NewCourse.storyboardc/NewCourseViewController.nib ... 
+2019-08-30 19:29:10 +0000  1075 bytes for ./NewCourse.storyboardc/NewCourseViewController.nib
+2019-08-30 19:29:10 +0000  copying file ./NewCourse.storyboardc/Info.plist ... 
+2019-08-30 19:29:10 +0000  219 bytes for ./NewCourse.storyboardc/Info.plist
+2019-08-30 19:29:10 +0000  copying file ./CreateContour.storyboardc/AKF-uj-C8z-view-nSG-D2-IIs.nib ... 
+2019-08-30 19:29:10 +0000  6365 bytes for ./CreateContour.storyboardc/AKF-uj-C8z-view-nSG-D2-IIs.nib
+2019-08-30 19:29:10 +0000  copying file ./CreateContour.storyboardc/CreateContourViewController.nib ... 
+2019-08-30 19:29:10 +0000  1055 bytes for ./CreateContour.storyboardc/CreateContourViewController.nib
+2019-08-30 19:29:10 +0000  copying file ./CreateContour.storyboardc/Info.plist ... 
+2019-08-30 19:29:10 +0000  227 bytes for ./CreateContour.storyboardc/Info.plist
+2019-08-30 19:29:10 +0000  copying file ./CustomAlert.storyboardc/CustomAlertViewController.nib ... 
+2019-08-30 19:29:10 +0000  1079 bytes for ./CustomAlert.storyboardc/CustomAlertViewController.nib
+2019-08-30 19:29:10 +0000  copying file ./CustomAlert.storyboardc/Info.plist ... 
+2019-08-30 19:29:10 +0000  223 bytes for ./CustomAlert.storyboardc/Info.plist
+copying file ./CustomAlert.storyboardc/Nqj-NV-C1w-view-5v6-Aj-Igs.nib ... 
+2019-08-30 19:29:10 +0000  5545 bytes for ./CustomAlert.storyboardc/Nqj-NV-C1w-view-5v6-Aj-Igs.nib
+2019-08-30 19:29:10 +0000  copying file ./AddPatient.storyboardc/v0t-br-Sjd-view-zvD-WD-aMA.nib ... 
+2019-08-30 19:29:10 +0000  12809 bytes for ./AddPatient.storyboardc/v0t-br-Sjd-view-zvD-WD-aMA.nib
+2019-08-30 19:29:10 +0000  copying file ./AddPatient.storyboardc/AddPatientViewController.nib ... 
+2019-08-30 19:29:10 +0000  3645 bytes for ./AddPatient.storyboardc/AddPatientViewController.nib
+2019-08-30 19:29:10 +0000  copying file ./AddPatient.storyboardc/Info.plist ... 
+2019-08-30 19:29:10 +0000  221 bytes for ./AddPatient.storyboardc/Info.plist
+2019-08-30 19:29:10 +0000  copying file ./ScanList.storyboardc/ScanListViewController.nib ... 
+2019-08-30 19:29:10 +0000  1045 bytes for ./ScanList.storyboardc/ScanListViewController.nib
+2019-08-30 19:29:10 +0000  copying file ./ScanList.storyboardc/ppj-hW-dGQ-view-N2a-Ct-NKa.nib ... 
+2019-08-30 19:29:10 +0000  15004 bytes for ./ScanList.storyboardc/ppj-hW-dGQ-view-N2a-Ct-NKa.nib
+2019-08-30 19:29:10 +0000  copying file ./ScanList.storyboardc/Info.plist ... 
+2019-08-30 19:29:10 +0000  217 bytes for ./ScanList.storyboardc/Info.plist
+2019-08-30 19:29:10 +0000  copying file ./Info.plist ... 
+2019-08-30 19:29:10 +0000  2121 bytes for ./Info.plist
+2019-08-30 19:29:10 +0000  copying file ./PkgInfo ... 
+2019-08-30 19:29:10 +0000  8 bytes for ./PkgInfo
+2019-08-30 19:29:10 +0000  copying file ./WorkSans-ExtraBoldItalic.ttf ... 
+2019-08-30 19:29:10 +0000  191444 bytes for ./WorkSans-ExtraBoldItalic.ttf
+2019-08-30 19:29:10 +0000  copying file ./Login.storyboardc/7yR-0z-GpB-view-s0u-5Y-0cW.nib ... 
+2019-08-30 19:29:10 +0000  5508 bytes for ./Login.storyboardc/7yR-0z-GpB-view-s0u-5Y-0cW.nib
+2019-08-30 19:29:10 +0000  copying file ./Login.storyboardc/LoginViewController.nib ... 
+2019-08-30 19:29:10 +0000  1067 bytes for ./Login.storyboardc/LoginViewController.nib
+2019-08-30 19:29:10 +0000  copying file ./Login.storyboardc/Info.plist ... 
+2019-08-30 19:29:10 +0000  211 bytes for ./Login.storyboardc/Info.plist
+2019-08-30 19:29:10 +0000  copying file ./WorkSans-Bold.ttf ... 
+2019-08-30 19:29:10 +0000  201436 bytes for ./WorkSans-Bold.ttf
+2019-08-30 19:29:10 +0000  /usr/bin/ditto exited with 0
+2019-08-30 19:29:10 +0000  Processing step: IDEDistributionEmbedProfileStep
+2019-08-30 19:29:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb6589860b0 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7fb658a7ce90:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftAVFoundation.dylib'>'>
+2019-08-30 19:29:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb657671d00 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fb658a3eb80:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftCore.dylib'>'>
+2019-08-30 19:29:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb658d12bf0 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7fb671f6fc70:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftCoreAudio.dylib'>'>
+2019-08-30 19:29:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb657414270 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fb658a3a170:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftCoreData.dylib'>'>
+2019-08-30 19:29:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb657091400 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fb657622200:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2019-08-30 19:29:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb6546f24f0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fb658a3f310:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2019-08-30 19:29:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb658c3c3d0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fb658a3fae0:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftCoreImage.dylib'>'>
+2019-08-30 19:29:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb658d1d140 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7fb658a26a50:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftCoreMedia.dylib'>'>
+2019-08-30 19:29:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb65714ee20 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fb658a34b60:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftDarwin.dylib'>'>
+2019-08-30 19:29:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb6574b7050 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fb658a37df0:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftDispatch.dylib'>'>
+2019-08-30 19:29:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb6669e1860 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fb658a26480:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftFoundation.dylib'>'>
+2019-08-30 19:29:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb674387760 'com.apple.dt.runtime.swiftGLKit' '<DVTFilePath:0x7fb658a28870:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftGLKit.dylib'>'>
+2019-08-30 19:29:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb67157ea50 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fb658a3baf0:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftMetal.dylib'>'>
+2019-08-30 19:29:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb671eb26c0 'com.apple.dt.runtime.swiftModelIO' '<DVTFilePath:0x7fb671a5a510:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftModelIO.dylib'>'>
+2019-08-30 19:29:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb658c874c0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fb658a38ac0:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2019-08-30 19:29:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb671f15540 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fb658a49050:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2019-08-30 19:29:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb657643c10 'com.apple.dt.runtime.swiftSceneKit' '<DVTFilePath:0x7fb658a2f660:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftSceneKit.dylib'>'>
+2019-08-30 19:29:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb65896b070 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fb658a3d690:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftUIKit.dylib'>'>
+2019-08-30 19:29:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb6576f60a0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fb658a36b90:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftos.dylib'>'>
+2019-08-30 19:29:10 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb655cb23b0 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7fb6574b4150:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftsimd.dylib'>'>
+2019-08-30 19:29:10 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2019-08-30 19:29:10 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2019-08-30 19:29:10 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2019-08-30 19:29:10 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2019-08-30 19:29:10 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2019-08-30 19:29:11 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-08-30 19:29:11 +0000  Processing step: IDEDistributionSymbolsStep
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-08-30 19:29:11 +0000  Processing step: IDEDistributionAppThinningStep
+2019-08-30 19:29:11 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2019-08-30 19:29:11 +0000  Processing step: IDEDistributionArchThinningStep
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftAVFoundation.dylib' '-verify_arch' 'arm64e'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftAVFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftAVFoundation.dylib'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Successfully thinned item "libswiftAVFoundation.dylib", arch "arm64e"
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCore.dylib' '-verify_arch' 'arm64e'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCore.dylib'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Successfully thinned item "libswiftCore.dylib", arch "arm64e"
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreAudio.dylib' '-verify_arch' 'arm64e'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreAudio.dylib' '-remove' 'arm64e' '-output' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreAudio.dylib'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Successfully thinned item "libswiftCoreAudio.dylib", arch "arm64e"
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreData.dylib' '-verify_arch' 'arm64e'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreData.dylib' '-remove' 'arm64e' '-output' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreData.dylib'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Successfully thinned item "libswiftCoreData.dylib", arch "arm64e"
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreFoundation.dylib' '-verify_arch' 'arm64e'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreFoundation.dylib'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Successfully thinned item "libswiftCoreFoundation.dylib", arch "arm64e"
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreGraphics.dylib' '-verify_arch' 'arm64e'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreGraphics.dylib' '-remove' 'arm64e' '-output' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreGraphics.dylib'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Successfully thinned item "libswiftCoreGraphics.dylib", arch "arm64e"
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreImage.dylib' '-verify_arch' 'arm64e'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreImage.dylib' '-remove' 'arm64e' '-output' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreImage.dylib'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Successfully thinned item "libswiftCoreImage.dylib", arch "arm64e"
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreMedia.dylib' '-verify_arch' 'arm64e'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreMedia.dylib' '-remove' 'arm64e' '-output' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreMedia.dylib'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Successfully thinned item "libswiftCoreMedia.dylib", arch "arm64e"
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftDarwin.dylib' '-verify_arch' 'arm64e'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftDarwin.dylib' '-remove' 'arm64e' '-output' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftDarwin.dylib'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Successfully thinned item "libswiftDarwin.dylib", arch "arm64e"
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftDispatch.dylib' '-verify_arch' 'arm64e'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftDispatch.dylib' '-remove' 'arm64e' '-output' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftDispatch.dylib'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Successfully thinned item "libswiftDispatch.dylib", arch "arm64e"
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftFoundation.dylib' '-verify_arch' 'arm64e'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftFoundation.dylib'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Successfully thinned item "libswiftFoundation.dylib", arch "arm64e"
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftGLKit.dylib' '-verify_arch' 'arm64e'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftGLKit.dylib' '-remove' 'arm64e' '-output' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftGLKit.dylib'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Successfully thinned item "libswiftGLKit.dylib", arch "arm64e"
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftMetal.dylib' '-verify_arch' 'arm64e'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftMetal.dylib' '-remove' 'arm64e' '-output' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftMetal.dylib'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Successfully thinned item "libswiftMetal.dylib", arch "arm64e"
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftModelIO.dylib' '-verify_arch' 'arm64e'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftModelIO.dylib' '-remove' 'arm64e' '-output' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftModelIO.dylib'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Successfully thinned item "libswiftModelIO.dylib", arch "arm64e"
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftObjectiveC.dylib' '-verify_arch' 'arm64e'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftObjectiveC.dylib' '-remove' 'arm64e' '-output' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftObjectiveC.dylib'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Successfully thinned item "libswiftObjectiveC.dylib", arch "arm64e"
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftQuartzCore.dylib' '-verify_arch' 'arm64e'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftQuartzCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftQuartzCore.dylib'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Successfully thinned item "libswiftQuartzCore.dylib", arch "arm64e"
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftSceneKit.dylib' '-verify_arch' 'arm64e'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftSceneKit.dylib' '-remove' 'arm64e' '-output' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftSceneKit.dylib'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Successfully thinned item "libswiftSceneKit.dylib", arch "arm64e"
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftUIKit.dylib' '-verify_arch' 'arm64e'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftUIKit.dylib' '-remove' 'arm64e' '-output' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftUIKit.dylib'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Successfully thinned item "libswiftUIKit.dylib", arch "arm64e"
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftos.dylib' '-verify_arch' 'arm64e'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftos.dylib' '-remove' 'arm64e' '-output' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftos.dylib'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Successfully thinned item "libswiftos.dylib", arch "arm64e"
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftsimd.dylib' '-verify_arch' 'arm64e'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftsimd.dylib' '-remove' 'arm64e' '-output' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftsimd.dylib'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2019-08-30 19:29:11 +0000  Successfully thinned item "libswiftsimd.dylib", arch "arm64e"
+2019-08-30 19:29:11 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/decimal3D' '-verify_arch' 'arm64e'
+2019-08-30 19:29:11 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-08-30 19:29:11 +0000  Skipping architecture thinning for item "decimal3D" because arch "arm64e" wasn't found
+2019-08-30 19:29:11 +0000  Processing step: IDEDistributionODRStep
+2019-08-30 19:29:11 +0000  Processing step: IDEDistributionStripXattrsStep
+2019-08-30 19:29:11 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb6589860b0 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7fb658a7ce90:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftAVFoundation.dylib'>'>
+2019-08-30 19:29:11 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb657671d00 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fb658a3eb80:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftCore.dylib'>'>
+2019-08-30 19:29:11 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb658d12bf0 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7fb671f6fc70:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftCoreAudio.dylib'>'>
+2019-08-30 19:29:11 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb657414270 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fb658a3a170:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftCoreData.dylib'>'>
+2019-08-30 19:29:11 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb657091400 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fb657622200:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2019-08-30 19:29:11 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb6546f24f0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fb658a3f310:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2019-08-30 19:29:11 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb658c3c3d0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fb658a3fae0:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftCoreImage.dylib'>'>
+2019-08-30 19:29:11 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb658d1d140 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7fb658a26a50:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftCoreMedia.dylib'>'>
+2019-08-30 19:29:11 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb65714ee20 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fb658a34b60:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftDarwin.dylib'>'>
+2019-08-30 19:29:11 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb6574b7050 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fb658a37df0:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftDispatch.dylib'>'>
+2019-08-30 19:29:11 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb6669e1860 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fb658a26480:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftFoundation.dylib'>'>
+2019-08-30 19:29:11 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb674387760 'com.apple.dt.runtime.swiftGLKit' '<DVTFilePath:0x7fb658a28870:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftGLKit.dylib'>'>
+2019-08-30 19:29:11 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb67157ea50 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fb658a3baf0:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftMetal.dylib'>'>
+2019-08-30 19:29:11 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb671eb26c0 'com.apple.dt.runtime.swiftModelIO' '<DVTFilePath:0x7fb671a5a510:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftModelIO.dylib'>'>
+2019-08-30 19:29:11 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb658c874c0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fb658a38ac0:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2019-08-30 19:29:11 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb671f15540 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fb658a49050:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2019-08-30 19:29:11 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb657643c10 'com.apple.dt.runtime.swiftSceneKit' '<DVTFilePath:0x7fb658a2f660:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftSceneKit.dylib'>'>
+2019-08-30 19:29:11 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb65896b070 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fb658a3d690:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftUIKit.dylib'>'>
+2019-08-30 19:29:11 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb6576f60a0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fb658a36b90:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftos.dylib'>'>
+2019-08-30 19:29:11 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb655cb23b0 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7fb6574b4150:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftsimd.dylib'>'>
+2019-08-30 19:29:11 +0000  Running /usr/bin/xattr '-crs' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app'
+2019-08-30 19:29:11 +0000  /usr/bin/xattr exited with 0
+2019-08-30 19:29:11 +0000  Processing step: IDEDistributionCodesignStep
+2019-08-30 19:29:11 +0000  Entitlements for <IDEDistributionItem: 0x7fb6589860b0 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7fb658a7ce90:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftAVFoundation.dylib'>'>: {
+}
+2019-08-30 19:29:11 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb6589860b0 'com.apple.dt.runtime.swiftAVFoundation' '<DVTFilePath:0x7fb658a7ce90:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftAVFoundation.dylib'>'> to: /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~4c2XRZ
+2019-08-30 19:29:11 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9B76BBAF4A13EC82F39B804FAA1F5D6DFF6FDE4D' '--entitlements' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~4c2XRZ' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftAVFoundation.dylib'
+2019-08-30 19:29:11 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftAVFoundation.dylib: replacing existing signature
+2019-08-30 19:29:11 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftAVFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftAVFoundation]
+2019-08-30 19:29:11 +0000  /usr/bin/codesign exited with 0
+2019-08-30 19:29:11 +0000  Entitlements for <IDEDistributionItem: 0x7fb657671d00 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fb658a3eb80:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftCore.dylib'>'>: {
+}
+2019-08-30 19:29:11 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb657671d00 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fb658a3eb80:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftCore.dylib'>'> to: /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~QRkiKs
+2019-08-30 19:29:11 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9B76BBAF4A13EC82F39B804FAA1F5D6DFF6FDE4D' '--entitlements' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~QRkiKs' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCore.dylib'
+2019-08-30 19:29:11 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCore.dylib: replacing existing signature
+2019-08-30 19:29:11 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2019-08-30 19:29:11 +0000  /usr/bin/codesign exited with 0
+2019-08-30 19:29:11 +0000  Entitlements for <IDEDistributionItem: 0x7fb658d12bf0 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7fb671f6fc70:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftCoreAudio.dylib'>'>: {
+}
+2019-08-30 19:29:11 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb658d12bf0 'com.apple.dt.runtime.swiftCoreAudio' '<DVTFilePath:0x7fb671f6fc70:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftCoreAudio.dylib'>'> to: /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~soozjQ
+2019-08-30 19:29:11 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9B76BBAF4A13EC82F39B804FAA1F5D6DFF6FDE4D' '--entitlements' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~soozjQ' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreAudio.dylib'
+2019-08-30 19:29:11 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreAudio.dylib: replacing existing signature
+2019-08-30 19:29:11 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreAudio.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreAudio]
+2019-08-30 19:29:11 +0000  /usr/bin/codesign exited with 0
+2019-08-30 19:29:11 +0000  Entitlements for <IDEDistributionItem: 0x7fb657414270 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fb658a3a170:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftCoreData.dylib'>'>: {
+}
+2019-08-30 19:29:11 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb657414270 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fb658a3a170:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftCoreData.dylib'>'> to: /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~DcEBzT
+2019-08-30 19:29:11 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9B76BBAF4A13EC82F39B804FAA1F5D6DFF6FDE4D' '--entitlements' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~DcEBzT' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreData.dylib'
+2019-08-30 19:29:11 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreData.dylib: replacing existing signature
+2019-08-30 19:29:11 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreData.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreData]
+2019-08-30 19:29:11 +0000  /usr/bin/codesign exited with 0
+2019-08-30 19:29:11 +0000  Entitlements for <IDEDistributionItem: 0x7fb657091400 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fb657622200:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2019-08-30 19:29:11 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb657091400 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fb657622200:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~JDKcbV
+2019-08-30 19:29:11 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9B76BBAF4A13EC82F39B804FAA1F5D6DFF6FDE4D' '--entitlements' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~JDKcbV' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreFoundation.dylib'
+2019-08-30 19:29:11 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2019-08-30 19:29:11 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2019-08-30 19:29:11 +0000  /usr/bin/codesign exited with 0
+2019-08-30 19:29:11 +0000  Entitlements for <IDEDistributionItem: 0x7fb6546f24f0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fb658a3f310:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2019-08-30 19:29:12 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb6546f24f0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fb658a3f310:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~YWyZqi
+2019-08-30 19:29:12 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9B76BBAF4A13EC82F39B804FAA1F5D6DFF6FDE4D' '--entitlements' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~YWyZqi' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreGraphics.dylib'
+2019-08-30 19:29:12 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2019-08-30 19:29:12 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2019-08-30 19:29:12 +0000  /usr/bin/codesign exited with 0
+2019-08-30 19:29:12 +0000  Entitlements for <IDEDistributionItem: 0x7fb658c3c3d0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fb658a3fae0:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2019-08-30 19:29:12 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb658c3c3d0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fb658a3fae0:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~PjfMnx
+2019-08-30 19:29:12 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9B76BBAF4A13EC82F39B804FAA1F5D6DFF6FDE4D' '--entitlements' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~PjfMnx' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreImage.dylib'
+2019-08-30 19:29:12 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2019-08-30 19:29:12 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2019-08-30 19:29:12 +0000  /usr/bin/codesign exited with 0
+2019-08-30 19:29:12 +0000  Entitlements for <IDEDistributionItem: 0x7fb658d1d140 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7fb658a26a50:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftCoreMedia.dylib'>'>: {
+}
+2019-08-30 19:29:12 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb658d1d140 'com.apple.dt.runtime.swiftCoreMedia' '<DVTFilePath:0x7fb658a26a50:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftCoreMedia.dylib'>'> to: /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~XTYZOz
+2019-08-30 19:29:12 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9B76BBAF4A13EC82F39B804FAA1F5D6DFF6FDE4D' '--entitlements' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~XTYZOz' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreMedia.dylib'
+2019-08-30 19:29:12 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreMedia.dylib: replacing existing signature
+2019-08-30 19:29:12 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftCoreMedia.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreMedia]
+2019-08-30 19:29:12 +0000  /usr/bin/codesign exited with 0
+2019-08-30 19:29:12 +0000  Entitlements for <IDEDistributionItem: 0x7fb65714ee20 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fb658a34b60:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2019-08-30 19:29:12 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb65714ee20 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fb658a34b60:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~p5OV12
+2019-08-30 19:29:12 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9B76BBAF4A13EC82F39B804FAA1F5D6DFF6FDE4D' '--entitlements' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~p5OV12' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftDarwin.dylib'
+2019-08-30 19:29:12 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2019-08-30 19:29:12 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2019-08-30 19:29:12 +0000  /usr/bin/codesign exited with 0
+2019-08-30 19:29:12 +0000  Entitlements for <IDEDistributionItem: 0x7fb6574b7050 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fb658a37df0:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2019-08-30 19:29:12 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb6574b7050 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fb658a37df0:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~wQBNIq
+2019-08-30 19:29:12 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9B76BBAF4A13EC82F39B804FAA1F5D6DFF6FDE4D' '--entitlements' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~wQBNIq' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftDispatch.dylib'
+2019-08-30 19:29:12 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2019-08-30 19:29:12 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2019-08-30 19:29:12 +0000  /usr/bin/codesign exited with 0
+2019-08-30 19:29:12 +0000  Entitlements for <IDEDistributionItem: 0x7fb6669e1860 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fb658a26480:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2019-08-30 19:29:12 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb6669e1860 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fb658a26480:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~LFBk1Z
+2019-08-30 19:29:12 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9B76BBAF4A13EC82F39B804FAA1F5D6DFF6FDE4D' '--entitlements' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~LFBk1Z' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftFoundation.dylib'
+2019-08-30 19:29:12 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2019-08-30 19:29:12 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2019-08-30 19:29:12 +0000  /usr/bin/codesign exited with 0
+2019-08-30 19:29:12 +0000  Entitlements for <IDEDistributionItem: 0x7fb674387760 'com.apple.dt.runtime.swiftGLKit' '<DVTFilePath:0x7fb658a28870:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftGLKit.dylib'>'>: {
+}
+2019-08-30 19:29:12 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb674387760 'com.apple.dt.runtime.swiftGLKit' '<DVTFilePath:0x7fb658a28870:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftGLKit.dylib'>'> to: /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~8M4uA9
+2019-08-30 19:29:12 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9B76BBAF4A13EC82F39B804FAA1F5D6DFF6FDE4D' '--entitlements' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~8M4uA9' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftGLKit.dylib'
+2019-08-30 19:29:12 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftGLKit.dylib: replacing existing signature
+2019-08-30 19:29:12 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftGLKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftGLKit]
+2019-08-30 19:29:12 +0000  /usr/bin/codesign exited with 0
+2019-08-30 19:29:12 +0000  Entitlements for <IDEDistributionItem: 0x7fb67157ea50 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fb658a3baf0:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2019-08-30 19:29:12 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb67157ea50 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fb658a3baf0:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~tir7hg
+2019-08-30 19:29:12 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9B76BBAF4A13EC82F39B804FAA1F5D6DFF6FDE4D' '--entitlements' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~tir7hg' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftMetal.dylib'
+2019-08-30 19:29:12 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftMetal.dylib: replacing existing signature
+2019-08-30 19:29:12 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2019-08-30 19:29:12 +0000  /usr/bin/codesign exited with 0
+2019-08-30 19:29:12 +0000  Entitlements for <IDEDistributionItem: 0x7fb671eb26c0 'com.apple.dt.runtime.swiftModelIO' '<DVTFilePath:0x7fb671a5a510:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftModelIO.dylib'>'>: {
+}
+2019-08-30 19:29:12 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb671eb26c0 'com.apple.dt.runtime.swiftModelIO' '<DVTFilePath:0x7fb671a5a510:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftModelIO.dylib'>'> to: /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~mIMLf6
+2019-08-30 19:29:12 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9B76BBAF4A13EC82F39B804FAA1F5D6DFF6FDE4D' '--entitlements' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~mIMLf6' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftModelIO.dylib'
+2019-08-30 19:29:12 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftModelIO.dylib: replacing existing signature
+2019-08-30 19:29:12 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftModelIO.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftModelIO]
+2019-08-30 19:29:12 +0000  /usr/bin/codesign exited with 0
+2019-08-30 19:29:12 +0000  Entitlements for <IDEDistributionItem: 0x7fb658c874c0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fb658a38ac0:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2019-08-30 19:29:13 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb658c874c0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fb658a38ac0:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~azBuZt
+2019-08-30 19:29:13 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9B76BBAF4A13EC82F39B804FAA1F5D6DFF6FDE4D' '--entitlements' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~azBuZt' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftObjectiveC.dylib'
+2019-08-30 19:29:13 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2019-08-30 19:29:13 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2019-08-30 19:29:13 +0000  /usr/bin/codesign exited with 0
+2019-08-30 19:29:13 +0000  Entitlements for <IDEDistributionItem: 0x7fb671f15540 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fb658a49050:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2019-08-30 19:29:13 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb671f15540 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fb658a49050:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~VfgmsD
+2019-08-30 19:29:13 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9B76BBAF4A13EC82F39B804FAA1F5D6DFF6FDE4D' '--entitlements' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~VfgmsD' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftQuartzCore.dylib'
+2019-08-30 19:29:13 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2019-08-30 19:29:13 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2019-08-30 19:29:13 +0000  /usr/bin/codesign exited with 0
+2019-08-30 19:29:13 +0000  Entitlements for <IDEDistributionItem: 0x7fb657643c10 'com.apple.dt.runtime.swiftSceneKit' '<DVTFilePath:0x7fb658a2f660:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftSceneKit.dylib'>'>: {
+}
+2019-08-30 19:29:13 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb657643c10 'com.apple.dt.runtime.swiftSceneKit' '<DVTFilePath:0x7fb658a2f660:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftSceneKit.dylib'>'> to: /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~kSvLa1
+2019-08-30 19:29:13 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9B76BBAF4A13EC82F39B804FAA1F5D6DFF6FDE4D' '--entitlements' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~kSvLa1' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftSceneKit.dylib'
+2019-08-30 19:29:13 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftSceneKit.dylib: replacing existing signature
+2019-08-30 19:29:13 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftSceneKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftSceneKit]
+2019-08-30 19:29:13 +0000  /usr/bin/codesign exited with 0
+2019-08-30 19:29:13 +0000  Entitlements for <IDEDistributionItem: 0x7fb65896b070 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fb658a3d690:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftUIKit.dylib'>'>: {
+}
+2019-08-30 19:29:13 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb65896b070 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fb658a3d690:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftUIKit.dylib'>'> to: /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~VAuiMM
+2019-08-30 19:29:13 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9B76BBAF4A13EC82F39B804FAA1F5D6DFF6FDE4D' '--entitlements' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~VAuiMM' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftUIKit.dylib'
+2019-08-30 19:29:13 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftUIKit.dylib: replacing existing signature
+2019-08-30 19:29:13 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2019-08-30 19:29:13 +0000  /usr/bin/codesign exited with 0
+2019-08-30 19:29:13 +0000  Entitlements for <IDEDistributionItem: 0x7fb6576f60a0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fb658a36b90:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftos.dylib'>'>: {
+}
+2019-08-30 19:29:13 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb6576f60a0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fb658a36b90:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftos.dylib'>'> to: /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~iJH5Eu
+2019-08-30 19:29:13 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9B76BBAF4A13EC82F39B804FAA1F5D6DFF6FDE4D' '--entitlements' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~iJH5Eu' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftos.dylib'
+2019-08-30 19:29:13 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftos.dylib: replacing existing signature
+2019-08-30 19:29:13 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2019-08-30 19:29:13 +0000  /usr/bin/codesign exited with 0
+2019-08-30 19:29:13 +0000  Entitlements for <IDEDistributionItem: 0x7fb655cb23b0 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7fb6574b4150:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftsimd.dylib'>'>: {
+}
+2019-08-30 19:29:13 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb655cb23b0 'com.apple.dt.runtime.swiftsimd' '<DVTFilePath:0x7fb6574b4150:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app/Frameworks/libswiftsimd.dylib'>'> to: /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~vzwDfm
+2019-08-30 19:29:13 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9B76BBAF4A13EC82F39B804FAA1F5D6DFF6FDE4D' '--entitlements' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~vzwDfm' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftsimd.dylib'
+2019-08-30 19:29:13 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftsimd.dylib: replacing existing signature
+2019-08-30 19:29:13 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app/Frameworks/libswiftsimd.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftsimd]
+2019-08-30 19:29:13 +0000  /usr/bin/codesign exited with 0
+2019-08-30 19:29:13 +0000  Entitlements for <IDEDistributionItem: 0x7fb658aafeb0 'com.dotdecimal.decimal3D' '<DVTFilePath:0x7fb6735577b0:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app'>'>: {
+    "application-identifier" = "8BNMDAR7PL.com.dotdecimal.decimal3D";
+    "com.apple.developer.team-identifier" = 8BNMDAR7PL;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "8BNMDAR7PL.com.dotdecimal.decimal3D"
+    );
+}
+2019-08-30 19:29:13 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb658aafeb0 'com.dotdecimal.decimal3D' '<DVTFilePath:0x7fb6735577b0:'/Users/jselikof/Library/Developer/Xcode/Archives/2019-08-30/decimal3D 8-30-19, 3.28 PM.xcarchive/Products/Applications/decimal3D.app'>'> to: /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~PjT0um
+2019-08-30 19:29:13 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '9B76BBAF4A13EC82F39B804FAA1F5D6DFF6FDE4D' '--entitlements' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/entitlements~~~PjT0um' '--preserve-metadata=identifier,flags,runtime' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app'
+2019-08-30 19:29:13 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app: replacing existing signature
+2019-08-30 19:29:13 +0000  /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root/Payload/decimal3D.app: signed app bundle with Mach-O thin (arm64) [com.dotdecimal.decimal3D]
+2019-08-30 19:29:13 +0000  /usr/bin/codesign exited with 0
+2019-08-30 19:29:13 +0000  Processing step: IDEDistributionZipODRItemStep
+2019-08-30 19:29:13 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-30 19:29:13 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-30 19:29:13 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-30 19:29:13 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-30 19:29:13 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-30 19:29:13 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-30 19:29:13 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-30 19:29:13 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-30 19:29:13 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-30 19:29:13 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-30 19:29:13 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-30 19:29:13 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-30 19:29:13 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-30 19:29:13 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-30 19:29:13 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-30 19:29:13 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-30 19:29:13 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-30 19:29:13 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-30 19:29:13 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-30 19:29:13 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-30 19:29:13 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-08-30 19:29:13 +0000  Processing step: IDEDistributionCreateIPAStep
+2019-08-30 19:29:13 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root' '/var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Packages/decimal3D.ipa'
+2019-08-30 19:29:13 +0000  >>> Copying /var/folders/kj/wpr35df14bv9_51zx102kwh00000gn/T/XcodeDistPipeline.~~~cdPScH/Root 
+2019-08-30 19:29:13 +0000  copying file ./Payload/decimal3D.app/_CodeSignature/CodeResources ... 
+2019-08-30 19:29:13 +0000  37161 bytes for ./Payload/decimal3D.app/_CodeSignature/CodeResources
+2019-08-30 19:29:13 +0000  copying file ./Payload/decimal3D.app/3DLogoSquare.obj ... 
+1182 bytes for ./Payload/decimal3D.app/3DLogoSquare.obj
+2019-08-30 19:29:13 +0000  copying file ./Payload/decimal3D.app/WorkSans-Regular.ttf ... 
+2019-08-30 19:29:13 +0000  188584 bytes for ./Payload/decimal3D.app/WorkSans-Regular.ttf
+2019-08-30 19:29:13 +0000  copying file ./Payload/decimal3D.app/Split.storyboardc/d0r-lA-dbh-view-uRe-Tf-Jxe.nib ... 
+2019-08-30 19:29:13 +0000  8249 bytes for ./Payload/decimal3D.app/Split.storyboardc/d0r-lA-dbh-view-uRe-Tf-Jxe.nib
+2019-08-30 19:29:13 +0000  copying file ./Payload/decimal3D.app/Split.storyboardc/SideMenuViewController.nib ... 
+2019-08-30 19:29:13 +0000  1123 bytes for ./Payload/decimal3D.app/Split.storyboardc/SideMenuViewController.nib
+copying file ./Payload/decimal3D.app/Split.storyboardc/SplitViewController.nib ... 
+2019-08-30 19:29:13 +0000  3286 bytes for ./Payload/decimal3D.app/Split.storyboardc/SplitViewController.nib
+2019-08-30 19:29:13 +0000  copying file ./Payload/decimal3D.app/Split.storyboardc/Info.plist ... 
+426 bytes for ./Payload/decimal3D.app/Split.storyboardc/Info.plist
+2019-08-30 19:29:13 +0000  copying file ./Payload/decimal3D.app/Advance.storyboardc/AdvanceViewController.nib ... 
+2019-08-30 19:29:13 +0000  1022 bytes for ./Payload/decimal3D.app/Advance.storyboardc/AdvanceViewController.nib
+copying file ./Payload/decimal3D.app/Advance.storyboardc/Info.plist ... 
+215 bytes for ./Payload/decimal3D.app/Advance.storyboardc/Info.plist
+copying file ./Payload/decimal3D.app/Advance.storyboardc/Knp-Qd-B48-view-bW8-yr-WoA.nib ... 
+2019-08-30 19:29:13 +0000  2980 bytes for ./Payload/decimal3D.app/Advance.storyboardc/Knp-Qd-B48-view-bW8-yr-WoA.nib
+2019-08-30 19:29:13 +0000  copying file ./Payload/decimal3D.app/NewScan.storyboardc/dqv-fU-jls-view-YYe-N7-VzY.nib ... 
+2019-08-30 19:29:13 +0000  8346 bytes for ./Payload/decimal3D.app/NewScan.storyboardc/dqv-fU-jls-view-YYe-N7-VzY.nib
+2019-08-30 19:29:13 +0000  copying file ./Payload/decimal3D.app/NewScan.storyboardc/Info.plist ... 
+215 bytes for ./Payload/decimal3D.app/NewScan.storyboardc/Info.plist
+copying file ./Payload/decimal3D.app/NewScan.storyboardc/NewScanViewController.nib ... 
+2019-08-30 19:29:13 +0000  1071 bytes for ./Payload/decimal3D.app/NewScan.storyboardc/NewScanViewController.nib
+copying file ./Payload/decimal3D.app/WorkSans-Light.ttf ... 
+2019-08-30 19:29:13 +0000  190308 bytes for ./Payload/decimal3D.app/WorkSans-Light.ttf
+2019-08-30 19:29:13 +0000  copying file ./Payload/decimal3D.app/PatientDetail.storyboardc/RhB-Ix-usC-view-ej6-ff-ySE.nib ... 
+2019-08-30 19:29:13 +0000  20735 bytes for ./Payload/decimal3D.app/PatientDetail.storyboardc/RhB-Ix-usC-view-ej6-ff-ySE.nib
+2019-08-30 19:29:13 +0000  copying file ./Payload/decimal3D.app/PatientDetail.storyboardc/PatientDetailViewController.nib ... 
+2019-08-30 19:29:13 +0000  3128 bytes for ./Payload/decimal3D.app/PatientDetail.storyboardc/PatientDetailViewController.nib
+copying file ./Payload/decimal3D.app/PatientDetail.storyboardc/Info.plist ... 
+2019-08-30 19:29:13 +0000  227 bytes for ./Payload/decimal3D.app/PatientDetail.storyboardc/Info.plist
+copying file ./Payload/decimal3D.app/WorkSans-ExtraBold.ttf ... 
+2019-08-30 19:29:13 +0000  205644 bytes for ./Payload/decimal3D.app/WorkSans-ExtraBold.ttf
+2019-08-30 19:29:13 +0000  copying file ./Payload/decimal3D.app/NewBeam.storyboardc/D1a-oz-Xyj-view-zBG-1S-LlW.nib ... 
+2019-08-30 19:29:13 +0000  5388 bytes for ./Payload/decimal3D.app/NewBeam.storyboardc/D1a-oz-Xyj-view-zBG-1S-LlW.nib
+2019-08-30 19:29:13 +0000  copying file ./Payload/decimal3D.app/NewBeam.storyboardc/NewBeamViewController.nib ... 
+1071 bytes for ./Payload/decimal3D.app/NewBeam.storyboardc/NewBeamViewController.nib
+copying file ./Payload/decimal3D.app/NewBeam.storyboardc/Info.plist ... 
+2019-08-30 19:29:13 +0000  215 bytes for ./Payload/decimal3D.app/NewBeam.storyboardc/Info.plist
+2019-08-30 19:29:13 +0000  copying file ./Payload/decimal3D.app/UpdateBeam.storyboardc/esr-uS-ztD-view-GEB-Vy-DGZ.nib ... 
+2019-08-30 19:29:13 +0000  4834 bytes for ./Payload/decimal3D.app/UpdateBeam.storyboardc/esr-uS-ztD-view-GEB-Vy-DGZ.nib
+copying file ./Payload/decimal3D.app/UpdateBeam.storyboardc/UpdateBeamViewController.nib ... 
+2019-08-30 19:29:13 +0000  1077 bytes for ./Payload/decimal3D.app/UpdateBeam.storyboardc/UpdateBeamViewController.nib
+copying file ./Payload/decimal3D.app/UpdateBeam.storyboardc/Info.plist ... 
+2019-08-30 19:29:13 +0000  221 bytes for ./Payload/decimal3D.app/UpdateBeam.storyboardc/Info.plist
+2019-08-30 19:29:13 +0000  copying file ./Payload/decimal3D.app/WorkSans-SemiBoldItalic.ttf ... 
+2019-08-30 19:29:13 +0000  190000 bytes for ./Payload/decimal3D.app/WorkSans-SemiBoldItalic.ttf
+2019-08-30 19:29:13 +0000  copying file ./Payload/decimal3D.app/WorkSans-MediumItalic.ttf ... 
+2019-08-30 19:29:13 +0000  190524 bytes for ./Payload/decimal3D.app/WorkSans-MediumItalic.ttf
+2019-08-30 19:29:13 +0000  copying file ./Payload/decimal3D.app/WorkSans-BoldItalic.ttf ... 
+2019-08-30 19:29:13 +0000  189236 bytes for ./Payload/decimal3D.app/WorkSans-BoldItalic.ttf
+2019-08-30 19:29:13 +0000  copying file ./Payload/decimal3D.app/decimal3D ... 
+2019-08-30 19:29:14 +0000  5115504 bytes for ./Payload/decimal3D.app/decimal3D
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/IQKeyboardManager.bundle/IQButtonBarArrowRight@2x.png ... 
+1786 bytes for ./Payload/decimal3D.app/IQKeyboardManager.bundle/IQButtonBarArrowRight@2x.png
+copying file ./Payload/decimal3D.app/IQKeyboardManager.bundle/IQButtonBarArrowUp@3x.png ... 
+2164 bytes for ./Payload/decimal3D.app/IQKeyboardManager.bundle/IQButtonBarArrowUp@3x.png
+copying file ./Payload/decimal3D.app/IQKeyboardManager.bundle/IQButtonBarArrowUp@2x.png ... 
+2019-08-30 19:29:14 +0000  1769 bytes for ./Payload/decimal3D.app/IQKeyboardManager.bundle/IQButtonBarArrowUp@2x.png
+copying file ./Payload/decimal3D.app/IQKeyboardManager.bundle/IQButtonBarArrowRight@3x.png ... 
+2019-08-30 19:29:14 +0000  1844 bytes for ./Payload/decimal3D.app/IQKeyboardManager.bundle/IQButtonBarArrowRight@3x.png
+copying file ./Payload/decimal3D.app/IQKeyboardManager.bundle/IQButtonBarArrowLeft@3x.png ... 
+2019-08-30 19:29:14 +0000  1815 bytes for ./Payload/decimal3D.app/IQKeyboardManager.bundle/IQButtonBarArrowLeft@3x.png
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/IQKeyboardManager.bundle/IQButtonBarArrowDown@3x.png ... 
+2019-08-30 19:29:14 +0000  2177 bytes for ./Payload/decimal3D.app/IQKeyboardManager.bundle/IQButtonBarArrowDown@3x.png
+copying file ./Payload/decimal3D.app/IQKeyboardManager.bundle/IQButtonBarArrowDown@2x.png ... 
+2019-08-30 19:29:14 +0000  1764 bytes for ./Payload/decimal3D.app/IQKeyboardManager.bundle/IQButtonBarArrowDown@2x.png
+copying file ./Payload/decimal3D.app/IQKeyboardManager.bundle/IQButtonBarArrowLeft@2x.png ... 
+2019-08-30 19:29:14 +0000  1793 bytes for ./Payload/decimal3D.app/IQKeyboardManager.bundle/IQButtonBarArrowLeft@2x.png
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/WorkSans-ExtraLight.ttf ... 
+2019-08-30 19:29:14 +0000  192808 bytes for ./Payload/decimal3D.app/WorkSans-ExtraLight.ttf
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/CreateBeam.storyboardc/CreateBeamViewController.nib ... 
+2019-08-30 19:29:14 +0000  1049 bytes for ./Payload/decimal3D.app/CreateBeam.storyboardc/CreateBeamViewController.nib
+copying file ./Payload/decimal3D.app/CreateBeam.storyboardc/ZBE-Tf-veZ-view-d18-s6-0O7.nib ... 
+2019-08-30 19:29:14 +0000  22280 bytes for ./Payload/decimal3D.app/CreateBeam.storyboardc/ZBE-Tf-veZ-view-d18-s6-0O7.nib
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/CreateBeam.storyboardc/Info.plist ... 
+221 bytes for ./Payload/decimal3D.app/CreateBeam.storyboardc/Info.plist
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/ScanInfo.storyboardc/oTL-Ab-WfS-view-2Wo-ju-nwP.nib ... 
+2019-08-30 19:29:14 +0000  15532 bytes for ./Payload/decimal3D.app/ScanInfo.storyboardc/oTL-Ab-WfS-view-2Wo-ju-nwP.nib
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/ScanInfo.storyboardc/ScanInfoViewController.nib ... 
+1045 bytes for ./Payload/decimal3D.app/ScanInfo.storyboardc/ScanInfoViewController.nib
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/ScanInfo.storyboardc/Info.plist ... 
+2019-08-30 19:29:14 +0000  217 bytes for ./Payload/decimal3D.app/ScanInfo.storyboardc/Info.plist
+copying file ./Payload/decimal3D.app/CourseManagement.storyboardc/CourseManagementViewController.nib ... 
+2019-08-30 19:29:14 +0000  2574 bytes for ./Payload/decimal3D.app/CourseManagement.storyboardc/CourseManagementViewController.nib
+copying file ./Payload/decimal3D.app/CourseManagement.storyboardc/rGc-eK-7FJ-view-T0t-xK-MEI.nib ... 
+2019-08-30 19:29:14 +0000  8723 bytes for ./Payload/decimal3D.app/CourseManagement.storyboardc/rGc-eK-7FJ-view-T0t-xK-MEI.nib
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/CourseManagement.storyboardc/Info.plist ... 
+233 bytes for ./Payload/decimal3D.app/CourseManagement.storyboardc/Info.plist
+copying file ./Payload/decimal3D.app/WorkSans-ThinItalic.ttf ... 
+2019-08-30 19:29:14 +0000  178700 bytes for ./Payload/decimal3D.app/WorkSans-ThinItalic.ttf
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/WorkSans-ExtraLightItalic.ttf ... 
+2019-08-30 19:29:14 +0000  181120 bytes for ./Payload/decimal3D.app/WorkSans-ExtraLightItalic.ttf
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/startScanButton@2x.png ... 
+2019-08-30 19:29:14 +0000  5919 bytes for ./Payload/decimal3D.app/startScanButton@2x.png
+copying file ./Payload/decimal3D.app/3DLogoSquare.jpg ... 
+2019-08-30 19:29:14 +0000  259735 bytes for ./Payload/decimal3D.app/3DLogoSquare.jpg
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/WorkSans-Medium.ttf ... 
+2019-08-30 19:29:14 +0000  202660 bytes for ./Payload/decimal3D.app/WorkSans-Medium.ttf
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/Base.lproj/PatientList.storyboardc/Sjv-vf-rj3-view-ija-Xc-qcD.nib ... 
+2019-08-30 19:29:14 +0000  15397 bytes for ./Payload/decimal3D.app/Base.lproj/PatientList.storyboardc/Sjv-vf-rj3-view-ija-Xc-qcD.nib
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/Base.lproj/PatientList.storyboardc/PatientListViewController.nib ... 
+2019-08-30 19:29:14 +0000  2801 bytes for ./Payload/decimal3D.app/Base.lproj/PatientList.storyboardc/PatientListViewController.nib
+copying file ./Payload/decimal3D.app/Base.lproj/PatientList.storyboardc/Info.plist ... 
+223 bytes for ./Payload/decimal3D.app/Base.lproj/PatientList.storyboardc/Info.plist
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2019-08-30 19:29:14 +0000  2146 bytes for ./Payload/decimal3D.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/decimal3D.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2019-08-30 19:29:14 +0000  832 bytes for ./Payload/decimal3D.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/decimal3D.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2019-08-30 19:29:14 +0000  258 bytes for ./Payload/decimal3D.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/ScanningViewController.storyboardc/rvd-AV-auu-view-4fL-JS-KMl.nib ... 
+2019-08-30 19:29:14 +0000  5818 bytes for ./Payload/decimal3D.app/ScanningViewController.storyboardc/rvd-AV-auu-view-4fL-JS-KMl.nib
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/ScanningViewController.storyboardc/ScanningViewController.nib ... 
+2019-08-30 19:29:14 +0000  1288 bytes for ./Payload/decimal3D.app/ScanningViewController.storyboardc/ScanningViewController.nib
+copying file ./Payload/decimal3D.app/ScanningViewController.storyboardc/Info.plist ... 
+2019-08-30 19:29:14 +0000  217 bytes for ./Payload/decimal3D.app/ScanningViewController.storyboardc/Info.plist
+copying file ./Payload/decimal3D.app/Order.storyboardc/OrderViewController.nib ... 
+2019-08-30 19:29:14 +0000  1142 bytes for ./Payload/decimal3D.app/Order.storyboardc/OrderViewController.nib
+copying file ./Payload/decimal3D.app/Order.storyboardc/dcg-yi-Voo-view-7rP-gf-RjA.nib ... 
+2019-08-30 19:29:14 +0000  19564 bytes for ./Payload/decimal3D.app/Order.storyboardc/dcg-yi-Voo-view-7rP-gf-RjA.nib
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/Order.storyboardc/Info.plist ... 
+211 bytes for ./Payload/decimal3D.app/Order.storyboardc/Info.plist
+copying file ./Payload/decimal3D.app/resetScanButton@2x.png ... 
+2019-08-30 19:29:14 +0000  2144 bytes for ./Payload/decimal3D.app/resetScanButton@2x.png
+copying file ./Payload/decimal3D.app/WorkSans-SemiBold.ttf ... 
+2019-08-30 19:29:14 +0000  202952 bytes for ./Payload/decimal3D.app/WorkSans-SemiBold.ttf
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/Assets.car ... 
+2019-08-30 19:29:14 +0000  5563080 bytes for ./Payload/decimal3D.app/Assets.car
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/ScanDetail.storyboardc/ScanDetailViewController.nib ... 
+2019-08-30 19:29:14 +0000  2559 bytes for ./Payload/decimal3D.app/ScanDetail.storyboardc/ScanDetailViewController.nib
+copying file ./Payload/decimal3D.app/ScanDetail.storyboardc/dHN-v8-E5g-view-IoL-Ly-wqa.nib ... 
+2019-08-30 19:29:14 +0000  19746 bytes for ./Payload/decimal3D.app/ScanDetail.storyboardc/dHN-v8-E5g-view-IoL-Ly-wqa.nib
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/ScanDetail.storyboardc/Info.plist ... 
+173 bytes for ./Payload/decimal3D.app/ScanDetail.storyboardc/Info.plist
+copying file ./Payload/decimal3D.app/AppIcon76x76@2x~ipad.png ... 
+2019-08-30 19:29:14 +0000  4889 bytes for ./Payload/decimal3D.app/AppIcon76x76@2x~ipad.png
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/WorkSans-Italic.ttf ... 
+2019-08-30 19:29:14 +0000  179968 bytes for ./Payload/decimal3D.app/WorkSans-Italic.ttf
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/decimal3D.momd/decimal3D.mom ... 
+2019-08-30 19:29:14 +0000  11878 bytes for ./Payload/decimal3D.app/decimal3D.momd/decimal3D.mom
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/decimal3D.momd/VersionInfo.plist ... 
+640 bytes for ./Payload/decimal3D.app/decimal3D.momd/VersionInfo.plist
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/decimal3D.momd/decimal3D.omo ... 
+2019-08-30 19:29:14 +0000  27320 bytes for ./Payload/decimal3D.app/decimal3D.momd/decimal3D.omo
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/doneButton@2x.png ... 
+2019-08-30 19:29:14 +0000  4887 bytes for ./Payload/decimal3D.app/doneButton@2x.png
+copying file ./Payload/decimal3D.app/OFL.txt ... 
+2019-08-30 19:29:14 +0000  4396 bytes for ./Payload/decimal3D.app/OFL.txt
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/Help.storyboardc/HelpViewController.nib ... 
+2019-08-30 19:29:14 +0000  1013 bytes for ./Payload/decimal3D.app/Help.storyboardc/HelpViewController.nib
+copying file ./Payload/decimal3D.app/Help.storyboardc/Info.plist ... 
+2019-08-30 19:29:14 +0000  209 bytes for ./Payload/decimal3D.app/Help.storyboardc/Info.plist
+copying file ./Payload/decimal3D.app/Help.storyboardc/Knp-Qd-B48-view-bW8-yr-WoA.nib ... 
+2019-08-30 19:29:14 +0000  2967 bytes for ./Payload/decimal3D.app/Help.storyboardc/Knp-Qd-B48-view-bW8-yr-WoA.nib
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/WorkSans-BlackItalic.ttf ... 
+2019-08-30 19:29:14 +0000  181660 bytes for ./Payload/decimal3D.app/WorkSans-BlackItalic.ttf
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/WorkSans-Thin.ttf ... 
+2019-08-30 19:29:14 +0000  191056 bytes for ./Payload/decimal3D.app/WorkSans-Thin.ttf
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/NewContour.storyboardc/NewContourViewController.nib ... 
+2019-08-30 19:29:14 +0000  1077 bytes for ./Payload/decimal3D.app/NewContour.storyboardc/NewContourViewController.nib
+copying file ./Payload/decimal3D.app/NewContour.storyboardc/Info.plist ... 
+221 bytes for ./Payload/decimal3D.app/NewContour.storyboardc/Info.plist
+copying file ./Payload/decimal3D.app/NewContour.storyboardc/5YP-OB-M3v-view-U3T-lN-6kw.nib ... 
+2019-08-30 19:29:14 +0000  5386 bytes for ./Payload/decimal3D.app/NewContour.storyboardc/5YP-OB-M3v-view-U3T-lN-6kw.nib
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/DEC_APERTURE_TFD_Boost_6LAOLtScarBo_TRILOGY-33603.dec ... 
+2019-08-30 19:29:14 +0000  13517 bytes for ./Payload/decimal3D.app/DEC_APERTURE_TFD_Boost_6LAOLtScarBo_TRILOGY-33603.dec
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/WorkSans-Black.ttf ... 
+2019-08-30 19:29:14 +0000  198712 bytes for ./Payload/decimal3D.app/WorkSans-Black.ttf
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/BlockView.storyboardc/BlockViewViewController.nib ... 
+1047 bytes for ./Payload/decimal3D.app/BlockView.storyboardc/BlockViewViewController.nib
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/BlockView.storyboardc/Info.plist ... 
+219 bytes for ./Payload/decimal3D.app/BlockView.storyboardc/Info.plist
+copying file ./Payload/decimal3D.app/BlockView.storyboardc/Gfq-Hb-JN6-view-Iax-g6-kNX.nib ... 
+2019-08-30 19:29:14 +0000  4005 bytes for ./Payload/decimal3D.app/BlockView.storyboardc/Gfq-Hb-JN6-view-Iax-g6-kNX.nib
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/MeshView.storyboardc/Nfn-CR-j2z-view-MnE-A3-pHz.nib ... 
+2019-08-30 19:29:14 +0000  5231 bytes for ./Payload/decimal3D.app/MeshView.storyboardc/Nfn-CR-j2z-view-MnE-A3-pHz.nib
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/MeshView.storyboardc/MeshViewViewController.nib ... 
+1391 bytes for ./Payload/decimal3D.app/MeshView.storyboardc/MeshViewViewController.nib
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/MeshView.storyboardc/UIViewController-ZtK-mI-bqg.nib ... 
+761 bytes for ./Payload/decimal3D.app/MeshView.storyboardc/UIViewController-ZtK-mI-bqg.nib
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/MeshView.storyboardc/Info.plist ... 
+455 bytes for ./Payload/decimal3D.app/MeshView.storyboardc/Info.plist
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/3DLogoSquare.mtl ... 
+266 bytes for ./Payload/decimal3D.app/3DLogoSquare.mtl
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/Frameworks/libswiftSceneKit.dylib ... 
+2019-08-30 19:29:14 +0000  304576 bytes for ./Payload/decimal3D.app/Frameworks/libswiftSceneKit.dylib
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/Frameworks/libswiftCoreImage.dylib ... 
+2019-08-30 19:29:14 +0000  253648 bytes for ./Payload/decimal3D.app/Frameworks/libswiftCoreImage.dylib
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/Frameworks/libswiftObjectiveC.dylib ... 
+2019-08-30 19:29:14 +0000  302640 bytes for ./Payload/decimal3D.app/Frameworks/libswiftObjectiveC.dylib
+2019-08-30 19:29:14 +0000  copying file ./Payload/decimal3D.app/Frameworks/libswiftCore.dylib ... 
+2019-08-30 19:29:15 +0000  16915040 bytes for ./Payload/decimal3D.app/Frameworks/libswiftCore.dylib
+copying file ./Payload/decimal3D.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2019-08-30 19:29:15 +0000  646848 bytes for ./Payload/decimal3D.app/Frameworks/libswiftCoreGraphics.dylib
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/Frameworks/libswiftUIKit.dylib ... 
+2019-08-30 19:29:15 +0000  477152 bytes for ./Payload/decimal3D.app/Frameworks/libswiftUIKit.dylib
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/Frameworks/libswiftMetal.dylib ... 
+2019-08-30 19:29:15 +0000  298096 bytes for ./Payload/decimal3D.app/Frameworks/libswiftMetal.dylib
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/Frameworks/libswiftCoreData.dylib ... 
+2019-08-30 19:29:15 +0000  354944 bytes for ./Payload/decimal3D.app/Frameworks/libswiftCoreData.dylib
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/Frameworks/libswiftDispatch.dylib ... 
+2019-08-30 19:29:15 +0000  1018912 bytes for ./Payload/decimal3D.app/Frameworks/libswiftDispatch.dylib
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/Frameworks/libswiftos.dylib ... 
+2019-08-30 19:29:15 +0000  299424 bytes for ./Payload/decimal3D.app/Frameworks/libswiftos.dylib
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2019-08-30 19:29:15 +0000  253792 bytes for ./Payload/decimal3D.app/Frameworks/libswiftCoreFoundation.dylib
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/Frameworks/libswiftDarwin.dylib ... 
+2019-08-30 19:29:15 +0000  369728 bytes for ./Payload/decimal3D.app/Frameworks/libswiftDarwin.dylib
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/Frameworks/libswiftQuartzCore.dylib ... 
+2019-08-30 19:29:15 +0000  256864 bytes for ./Payload/decimal3D.app/Frameworks/libswiftQuartzCore.dylib
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/Frameworks/libswiftCoreAudio.dylib ... 
+2019-08-30 19:29:15 +0000  311312 bytes for ./Payload/decimal3D.app/Frameworks/libswiftCoreAudio.dylib
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/Frameworks/libswiftAVFoundation.dylib ... 
+2019-08-30 19:29:15 +0000  503456 bytes for ./Payload/decimal3D.app/Frameworks/libswiftAVFoundation.dylib
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/Frameworks/libswiftModelIO.dylib ... 
+2019-08-30 19:29:15 +0000  303008 bytes for ./Payload/decimal3D.app/Frameworks/libswiftModelIO.dylib
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/Frameworks/libswiftFoundation.dylib ... 
+2019-08-30 19:29:15 +0000  8479552 bytes for ./Payload/decimal3D.app/Frameworks/libswiftFoundation.dylib
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/Frameworks/libswiftCoreMedia.dylib ... 
+2019-08-30 19:29:15 +0000  302656 bytes for ./Payload/decimal3D.app/Frameworks/libswiftCoreMedia.dylib
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/Frameworks/libswiftGLKit.dylib ... 
+2019-08-30 19:29:15 +0000  254864 bytes for ./Payload/decimal3D.app/Frameworks/libswiftGLKit.dylib
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/Frameworks/libswiftsimd.dylib ... 
+2019-08-30 19:29:15 +0000  1013296 bytes for ./Payload/decimal3D.app/Frameworks/libswiftsimd.dylib
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/embedded.mobileprovision ... 
+2019-08-30 19:29:15 +0000  9878 bytes for ./Payload/decimal3D.app/embedded.mobileprovision
+copying file ./Payload/decimal3D.app/WorkSans-LightItalic.ttf ... 
+2019-08-30 19:29:15 +0000  181916 bytes for ./Payload/decimal3D.app/WorkSans-LightItalic.ttf
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/NewCourse.storyboardc/cfc-OE-Ucu-view-Q42-ot-1BP.nib ... 
+2019-08-30 19:29:15 +0000  5402 bytes for ./Payload/decimal3D.app/NewCourse.storyboardc/cfc-OE-Ucu-view-Q42-ot-1BP.nib
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/NewCourse.storyboardc/NewCourseViewController.nib ... 
+1075 bytes for ./Payload/decimal3D.app/NewCourse.storyboardc/NewCourseViewController.nib
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/NewCourse.storyboardc/Info.plist ... 
+219 bytes for ./Payload/decimal3D.app/NewCourse.storyboardc/Info.plist
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/CreateContour.storyboardc/AKF-uj-C8z-view-nSG-D2-IIs.nib ... 
+2019-08-30 19:29:15 +0000  6365 bytes for ./Payload/decimal3D.app/CreateContour.storyboardc/AKF-uj-C8z-view-nSG-D2-IIs.nib
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/CreateContour.storyboardc/CreateContourViewController.nib ... 
+1055 bytes for ./Payload/decimal3D.app/CreateContour.storyboardc/CreateContourViewController.nib
+copying file ./Payload/decimal3D.app/CreateContour.storyboardc/Info.plist ... 
+2019-08-30 19:29:15 +0000  227 bytes for ./Payload/decimal3D.app/CreateContour.storyboardc/Info.plist
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/CustomAlert.storyboardc/CustomAlertViewController.nib ... 
+2019-08-30 19:29:15 +0000  1079 bytes for ./Payload/decimal3D.app/CustomAlert.storyboardc/CustomAlertViewController.nib
+copying file ./Payload/decimal3D.app/CustomAlert.storyboardc/Info.plist ... 
+2019-08-30 19:29:15 +0000  223 bytes for ./Payload/decimal3D.app/CustomAlert.storyboardc/Info.plist
+copying file ./Payload/decimal3D.app/CustomAlert.storyboardc/Nqj-NV-C1w-view-5v6-Aj-Igs.nib ... 
+2019-08-30 19:29:15 +0000  5545 bytes for ./Payload/decimal3D.app/CustomAlert.storyboardc/Nqj-NV-C1w-view-5v6-Aj-Igs.nib
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/AddPatient.storyboardc/v0t-br-Sjd-view-zvD-WD-aMA.nib ... 
+2019-08-30 19:29:15 +0000  12809 bytes for ./Payload/decimal3D.app/AddPatient.storyboardc/v0t-br-Sjd-view-zvD-WD-aMA.nib
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/AddPatient.storyboardc/AddPatientViewController.nib ... 
+2019-08-30 19:29:15 +0000  3645 bytes for ./Payload/decimal3D.app/AddPatient.storyboardc/AddPatientViewController.nib
+copying file ./Payload/decimal3D.app/AddPatient.storyboardc/Info.plist ... 
+2019-08-30 19:29:15 +0000  221 bytes for ./Payload/decimal3D.app/AddPatient.storyboardc/Info.plist
+copying file ./Payload/decimal3D.app/ScanList.storyboardc/ScanListViewController.nib ... 
+2019-08-30 19:29:15 +0000  1045 bytes for ./Payload/decimal3D.app/ScanList.storyboardc/ScanListViewController.nib
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/ScanList.storyboardc/ppj-hW-dGQ-view-N2a-Ct-NKa.nib ... 
+2019-08-30 19:29:15 +0000  15004 bytes for ./Payload/decimal3D.app/ScanList.storyboardc/ppj-hW-dGQ-view-N2a-Ct-NKa.nib
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/ScanList.storyboardc/Info.plist ... 
+217 bytes for ./Payload/decimal3D.app/ScanList.storyboardc/Info.plist
+copying file ./Payload/decimal3D.app/Info.plist ... 
+2019-08-30 19:29:15 +0000  2121 bytes for ./Payload/decimal3D.app/Info.plist
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/PkgInfo ... 
+8 bytes for ./Payload/decimal3D.app/PkgInfo
+copying file ./Payload/decimal3D.app/WorkSans-ExtraBoldItalic.ttf ... 
+2019-08-30 19:29:15 +0000  191444 bytes for ./Payload/decimal3D.app/WorkSans-ExtraBoldItalic.ttf
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/Login.storyboardc/7yR-0z-GpB-view-s0u-5Y-0cW.nib ... 
+2019-08-30 19:29:15 +0000  5508 bytes for ./Payload/decimal3D.app/Login.storyboardc/7yR-0z-GpB-view-s0u-5Y-0cW.nib
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/Login.storyboardc/LoginViewController.nib ... 
+1067 bytes for ./Payload/decimal3D.app/Login.storyboardc/LoginViewController.nib
+2019-08-30 19:29:15 +0000  copying file ./Payload/decimal3D.app/Login.storyboardc/Info.plist ... 
+211 bytes for ./Payload/decimal3D.app/Login.storyboardc/Info.plist
+copying file ./Payload/decimal3D.app/WorkSans-Bold.ttf ... 
+2019-08-30 19:29:15 +0000  201436 bytes for ./Payload/decimal3D.app/WorkSans-Bold.ttf
+2019-08-30 19:29:15 +0000  /usr/bin/ditto exited with 0
+2019-08-30 19:29:15 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2019-08-30 19:29:15 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2019-08-30 19:29:15 +0000  Processing step: IDEDistributionCreateManifestStep
